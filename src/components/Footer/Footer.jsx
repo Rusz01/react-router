@@ -24,9 +24,19 @@ function Footer() {
                                         Home
                                     </NavLink>
                                 </li>
-                                <li>
+                                <li className="mb-4">
                                     <NavLink to="/about" className={({isActive}) => `hover:underline ${isActive ? "text-orange-700" : "text-gray-500"}`}>
                                         About
+                                    </NavLink>
+                                </li>
+                                <li className="mb-4">
+                                    <NavLink to="/contact" className={({isActive}) => `hover:underline ${isActive ? "text-orange-700" : "text-gray-500"}`}>
+                                        Contact
+                                    </NavLink>
+                                </li>
+                                <li className="mb-4">
+                                    <NavLink to="/github" className={({isActive}) => `hover:underline ${isActive ? "text-orange-700" : "text-gray-500"}`}>
+                                        Github
                                     </NavLink>
                                 </li>
                             </ul>
@@ -36,7 +46,7 @@ function Footer() {
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/hiteshchoudhary"
+                                        href="https://github.com/rusz01"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
